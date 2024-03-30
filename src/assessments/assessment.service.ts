@@ -17,7 +17,6 @@ export class AssessmentService {
     if (response.uploadedFiles) {
       response.uploadedFiles.forEach((Text) => delete Text.buffer); // Remove buffer property
     }
-    console.log('The response: ', JSON.stringify(response));
     return response;
   }
 }
