@@ -39,6 +39,10 @@ $ Do have node version in recent LTS (Long time support), mine is node v 20.12 .
 $ Do have npm version in recent LTS (Long time support), mine is npm v 10.5 .0
 $ This would enable the Nestjs framework run effectively
 
+# payload
+$ ![image](https://github.com/Dubem007/NestJs-Api/assets/56541543/df5ca215-924a-4944-882f-6c623f38c3fb)
+
+
 # development
 $ npm run start
 
