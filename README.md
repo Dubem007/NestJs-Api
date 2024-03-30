@@ -35,6 +35,10 @@ $ npm install
 ## Running the app
 
 ```bash
+# Do have node version in recent LTS (Long time support), mine is node v 20.12 .0
+$ Do have npm version in recent LTS (Long time support), mine is npm v 10.5 .0
+$ This would enable the Nestjs framework run effectively
+
 # development
 $ npm run start
 
@@ -44,7 +48,14 @@ $ npm run start:dev
 # production mode
 $ npm run start:prod
 ```
+## DataBase
+```bash
+# Do ensure you have mongodb running on your system using nay option (Docker or cloud or install and run locally)
+$ The app.module when initaited would have the default mongodb connection strings and collection
 
+# When you run the project is connects automatically using mongodb://127.0.0.1:27017/{name of your collection}
+$ The Ip 127.0.0.1 is synonymous to localhost.
+```
 ## Test
 
 ```bash
